@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/*
+font-family: 'Raleway', sans-serif;
+*/
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+/* particles */
+#particles-js{
+	width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -50;
+}
+
+/* navbar settings */
+
+#navbar-main .navbar{
+  margin-bottom: 0px;
+  padding: 10px 0px;
+}
+
+#navbar-main > nav > div > div.navbar-header > a > p{
+  font-size: 26px;
+  color: #009688;
+  letter-spacing: 4px;
+}
+
+#navbar-main > nav > div > div.navbar-header > a > p::first-letter{
+  color:#FF5722;
+  font-size: 28px;
+}
+
+#navbar-main > nav > div > div.navbar-header > button > span:nth-child(2){
+	background-color: #FF5722;
+}
+
+#bs-example-navbar-collapse-1 > ul > li > a{
+  color: #009688;
+  font-size: 16px;
+}
+
+#bs-example-navbar-collapse-1 > ul > li > a::first-letter{
+  color:#FF5722;
+  font-size: 18px;
+}
+
+#bs-example-navbar-collapse-1 > ul > li > a:hover{
+	color: #FF5722;
+}
+
+#bs-example-navbar-collapse-1 > ul > li > a:hover::first-letter{
+	color: #009688;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  /*background-color: transparent;*/
+}
+
+.navbar-default .navbar-toggle{
+  /*border-color: transparent;*/
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #009688;
+}
+
+/* Preloader */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 2000;
+}
+
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-image: url(../img/status.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+}
+
+/* screen height settings */
+
+.screen{
+  min-height: 100vh;
+  padding: 15% 5%;
+  vertical-align: middle;
+}
+
+/* general settings */
+
+p{
+  text-align: justify;
+  margin: 0 auto;
+  line-height: 26px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+
+/* home part settings */
+
+#home > h4{
+  letter-spacing: 4px;
+  color: #FF5722;
+  font-size: 18px;
+}
+
+#home > p::first-letter, #about > p::first-letter, #contact > p:nth-child(2)::first-letter{
+  margin-left: 20px;
+  color: #009688;
+  font-size: 32px;
+}
+
+/* other parts settings */
+
+#portfolio > h3, #about > h3, #contact > h3{
+  color: #ff5722;
+  font-size: 22px;
+  letter-spacing: 4px;
+}
+
+.anchor{
+	color: #009688;
+	text-decoration: none; 
+	font-size: 18px;
+}
+
+.anchor:hover{
+	text-decoration: none; 
+	color: #FF5722;
+}
+
+/* media query settings */
+
+@media only screen and (max-width: 375px) {
+    #navbar-main > nav > div > div.navbar-header > a > p{
+      letter-spacing: 0px;
+      font-size: 22px;
+    }
+
+    #home > h4{
+      font-size: 16px;
+    }
+
+    #portfolio > h3{
+      font-size: 16px;
+    }
+
+    #navbar-main > nav > div > div.navbar-header > a > p:first-letter{
+      font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+	.screen{
+	  padding: 80px 5%;
+	}
+}
