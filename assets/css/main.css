@@ -324,6 +324,17 @@ ul.skills > li span {
   }
 }
 
+.braket{
+  font-size: 32px;
+  color: #ff5722;
+}
+
+.fsd{
+  font-size: 24px;
+  color: #009688;
+  font-weight: 600;
+}
+
 
 
 /* media query settings */
@@ -355,5 +366,13 @@ ul.skills > li span {
 @media only screen and (max-width: 600px) {
   .screen{
     padding: 80px 5%;
+  }
+
+  .fsd{
+    font-size: 12px;
+  }
+
+  .braket{
+    font-size: 24px;
   }
 }
