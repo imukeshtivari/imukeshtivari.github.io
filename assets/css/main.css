@@ -343,7 +343,7 @@ ul.skills > li span {
     }
 
     #portfolio > h3{
-      font-size: 16px;
+      /* font-size: 16px; */
     }
 
     #navbar-main > nav > div > div.navbar-header > a > p:first-letter{
