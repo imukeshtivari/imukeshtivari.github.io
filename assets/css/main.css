@@ -2,7 +2,7 @@
 font-family: 'Raleway', sans-serif;
 */
 
-body{
+body {
   font-family: 'Raleway', sans-serif;
   background-color: #333;
 }
@@ -14,7 +14,8 @@ body{
 }
 
 /* particles */
-#particles-js{
+
+#particles-js {
   width: 100%;
   height: 100vh;
   position: fixed;
@@ -25,65 +26,57 @@ body{
 
 /* navbar settings */
 
-#navbar-main .navbar{
+#navbar-main .navbar {
   margin-bottom: 0px;
   padding: 10px 0px;
   background-color: #333;
-  -webkit-box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.2);
-  -moz-box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.2);
-  box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
-.navbar-default, .navbar-default .navbar-collapse, .navbar-default .navbar-form, .navbar-default .navbar-toggle{
-   border-color: rgba(0, 0, 0, 0); 
-   /*border-top-color: rgba(0, 0, 0, 0); */
+.navbar-default,
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form,
+.navbar-default .navbar-toggle {
+  border-color: rgba(0, 0, 0, 0);
+  /*border-top-color: rgba(0, 0, 0, 0); */
 }
 
-#navbar-main > nav > div > div.navbar-header > a > p{
+#navbar-main>nav>div>div.navbar-header>a>p {
   font-size: 26px;
   color: #009688;
   letter-spacing: 4px;
-   font-weight: 600;
+  font-weight: 600;
 }
 
-#navbar-main > nav > div > div.navbar-header > a > p::first-letter{
-  color:#FF5722;
+#navbar-main>nav>div>div.navbar-header>a>p::first-letter {
+  color: #FF5722;
   font-size: 28px;
-   font-weight: 600; 
+  font-weight: 600;
 }
 
-#navbar-main > nav > div > div.navbar-header > button > span:nth-child(2){
+#navbar-main>nav>div>div.navbar-header>button>span:nth-child(2) {
   background-color: #FF5722;
 }
 
-#bs-example-navbar-collapse-1 > ul > li > a{
+#bs-example-navbar-collapse-1>ul>li>a {
   color: #009688;
-  font-size: 16px;  
+  font-size: 16px;
 }
 
-#bs-example-navbar-collapse-1 > ul > li > a::first-letter{
-  color:#FF5722;
+#bs-example-navbar-collapse-1>ul>li>a::first-letter {
+  color: #FF5722;
   font-size: 18px;
   font-weight: 600;
 }
 
-/*#bs-example-navbar-collapse-1 > ul > li > a:hover{
-  color: #FF5722;
-}*/
-
-/*#bs-example-navbar-collapse-1 > ul > li > a:hover::first-letter{
-  color: #009688;
-}*/
-
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
   background-color: transparent;
 }
 
-.navbar-default .navbar-toggle{
-  /*border-color: transparent;*/
-}
-
-.navbar-default .navbar-toggle .icon-bar{
+.navbar-default .navbar-toggle .icon-bar {
   background-color: #009688;
 }
 
@@ -113,7 +106,7 @@ body{
 
 /* screen height settings */
 
-.screen{
+.screen {
   min-height: 100vh;
   padding: 15% 5%;
   vertical-align: middle;
@@ -121,7 +114,7 @@ body{
 
 /* general settings */
 
-p{
+p {
   text-align: justify;
   margin: 0 auto;
   line-height: 26px;
@@ -130,16 +123,17 @@ p{
   color: antiquewhite;
 }
 
-
 /* home part settings */
 
-#home > h4{
+#home>h4 {
   letter-spacing: 4px;
   color: #FF5722;
   font-size: 18px;
 }
 
-#home > p::first-letter, #about > p::first-letter, #contact > p:nth-child(2)::first-letter{
+#home>p::first-letter,
+#about>p::first-letter,
+#contact>p:nth-child(2)::first-letter {
   margin-left: 20px;
   color: #009688;
   font-size: 32px;
@@ -147,22 +141,27 @@ p{
 
 /* other parts settings */
 
-#portfolio > h3, #about > h3, #contact > h3, #skills > h3{
+#portfolio>h3,
+#about>h3,
+#contact>h3,
+#skills>h3 {
   color: #ff5722;
   font-size: 22px;
   letter-spacing: 4px;
   font-weight: 600;
 }
 
-.anchor, .anchor:link, .anchor:visited{
+.anchor,
+.anchor:link,
+.anchor:visited {
   color: #009688;
-  text-decoration: none; 
+  text-decoration: none;
   font-size: 18px;
   font-weight: 600;
 }
 
-.anchor:hover{
-  text-decoration: none; 
+.anchor:hover {
+  text-decoration: none;
   color: #FF5722;
 }
 
@@ -174,7 +173,7 @@ ul.skills {
   padding-left: 0px;
 }
 
-ul.skills > li {
+ul.skills>li {
   margin-bottom: 50px;
   background: #ff5722;
   height: 3px;
@@ -185,7 +184,7 @@ ul.skills > li {
   border-bottom: 1px solid #333;
 }
 
-ul.skills > li em {
+ul.skills>li em {
   font-family: 'Exo', sans-serif;
   font-size: 18px;
   position: relative;
@@ -194,12 +193,11 @@ ul.skills > li em {
   font-style: normal;
 }
 
-ul.skills > li span {
-    height: 2px;
-    /* margin: 0px 0; */
-    background: #009688;
-    position: absolute;
-    box-shadow: 0px 0px 10px 1px rgba(0, 150, 136, 0.8);
+ul.skills>li span {
+  height: 2px;
+  background: #009688;
+  position: absolute;
+  box-shadow: 0px 0px 10px 1px rgba(0, 150, 136, 0.8);
 }
 
 .html5 {
@@ -217,13 +215,13 @@ ul.skills > li span {
   animation: jquery 2s ease-out;
 }
 
-.backbone{
+.backbone {
   width: 65%;
   animation: backbone 2s ease-out;
 }
 
-.react{
-  width: 40%;
+.react {
+  width: 75%;
   animation: react 2s ease-out;
 }
 
@@ -232,22 +230,22 @@ ul.skills > li span {
   animation: angularjs 2s ease-out;
 }
 
-.php{
+.php {
   width: 75%;
   animation: php 2s ease-out;
 }
 
-.nodejs{
-  width: 40%;
+.nodejs {
+  width: 60%;
   animation: nodejs 2s ease-out;
 }
 
-.java{
+.java {
   width: 45%;
   animation: java 2s ease-out;
 }
 
-.mysql{
+.mysql {
   width: 75%;
   animation: mysql 2s ease-out;
 }
@@ -269,6 +267,7 @@ ul.skills > li span {
     width: 60%;
   }
 }
+
 @keyframes jquery {
   0% {
     width: 0px;
@@ -277,7 +276,8 @@ ul.skills > li span {
     width: 75%;
   }
 }
-@keyframes backbone{
+
+@keyframes backbone {
   0% {
     width: 0px;
   }
@@ -291,7 +291,7 @@ ul.skills > li span {
     width: 0px;
   }
   100% {
-    width: 40%;
+    width: 75%;
   }
 }
 
@@ -312,14 +312,16 @@ ul.skills > li span {
     width: 75%;
   }
 }
+
 @keyframes nodejs {
   0% {
     width: 0px;
   }
   100% {
-    width: 40%;
+    width: 60%;
   }
 }
+
 @keyframes java {
   0% {
     width: 0px;
@@ -328,6 +330,7 @@ ul.skills > li span {
     width: 45%;
   }
 }
+
 @keyframes mysql {
   0% {
     width: 0px;
@@ -337,59 +340,45 @@ ul.skills > li span {
   }
 }
 
-.braket{
+.braket {
   font-size: 32px;
   color: #ff5722;
 }
 
-.fsd{
+.fsd {
   font-size: 24px;
   color: #009688;
   font-weight: 600;
 }
 
-
-
 /* media query settings */
 
 @media only screen and (max-width: 375px) {
-    #navbar-main > nav > div > div.navbar-header > a > p{
-      letter-spacing: 0px;
-      font-size: 26px;
-    }
-
-    #home > h4{
-      font-size: 16px;
-    }
-
-    #home > h4:nth-child(1) > span:nth-child(4){
-      
-    }
-
-    #portfolio > h3{
-      /* font-size: 16px; */
-    }
-
-    #navbar-main > nav > div > div.navbar-header > a > p:first-letter{
-      font-size: 30px;
-      /*font-weight: 600;*/
-    }
+  #navbar-main>nav>div>div.navbar-header>a>p {
+    letter-spacing: 0px;
+    font-size: 26px;
+  }
+  #home>h4 {
+    font-size: 16px;
+  }
+  #home>h4:nth-child(1)>span:nth-child(4) {}
+  #portfolio>h3 {}
+  #navbar-main>nav>div>div.navbar-header>a>p:first-letter {
+    font-size: 30px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-  .screen{
+  .screen {
     padding: 80px 5%;
   }
-
-  .fsd{
+  .fsd {
     font-size: 14px;
   }
-
-  .braket{
+  .braket {
     font-size: 24px;
   }
-
-  .img-custom{
+  .img-custom {
     width: 154px;
   }
 }
